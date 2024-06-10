@@ -1,0 +1,25 @@
+.about {
+  height: 70vh;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 50%;
+  padding: 0 2rem;
+  & .about-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  & .about-text {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}

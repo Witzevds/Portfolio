@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.hero-wrap {
+  display: flex;
+  padding-left: 40%;
+  flex-direction: column;
+  gap: 3rem;
+  & .quote {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: white;
+    width: 80%;
+  }
+}
+
+.name-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  & .name {
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+    font-weight: 300;
+
+    & .fat {
+      font-weight: 900;
+    }
+  }
+
+  & .logo {
+    width: 30%;
+    border-radius: 50%;
+  }
+}
