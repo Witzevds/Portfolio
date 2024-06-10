@@ -1,7 +1,7 @@
 @import url("root.css");
 
 body {
-  background-image: url("/public/assets/svg/Background.svg");
+  background-image: url("../assets/svg/Background.svg");
   background-size: cover;
   background-color: black;
   background-repeat: repeat;
