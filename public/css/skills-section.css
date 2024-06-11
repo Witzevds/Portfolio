@@ -1,0 +1,13 @@
+.skills-section {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+}
+.skills-stroke {
+  display: flex;
+  font-size: 4rem;
+  color: white;
+  gap: 3rem;
+  justify-content: space-between;
+}
