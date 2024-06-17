@@ -1,3 +1,14 @@
 .purpose {
   height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  & h2 {
+    font-size: 5rem;
+  }
+  & .purpose-flex {
+    width: 50%;
+  }
 }

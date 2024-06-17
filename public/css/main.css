@@ -4,6 +4,8 @@
 @import url("about.css");
 @import url("skills-section.css");
 @import url("purpose.css");
+@import url("work.css");
+@import url("projects.css");
 body {
   background-image: url("../assets/svg/Background.svg");
   background-size: cover;
@@ -11,6 +13,7 @@ body {
   background-repeat: repeat;
   font-family: "MyVariableFont", sans-serif;
   font-weight: 100;
+  font-size: 1.5rem;
 }
 nav {
   display: flex;

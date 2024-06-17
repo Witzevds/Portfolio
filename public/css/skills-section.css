@@ -1,9 +1,15 @@
+/* styles.css */
+
 .skills-section {
   display: flex;
   align-items: center;
   height: 70vh;
   justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
 }
+
 .skills-stroke {
   display: flex;
   font-size: 4rem;
