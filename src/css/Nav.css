@@ -5,6 +5,7 @@
   & .navigation__list {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     align-items: center;
     color: black;
     font-size: 1.5rem;
