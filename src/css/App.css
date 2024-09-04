@@ -1,0 +1,9 @@
+@import url("Fonts.css");
+@import url("Nav.css");
+@import url("hero.css");
+
+body {
+  font-family: "pricedown", sans serif;
+  font-weight: 400;
+  background-color: #000000;
+}

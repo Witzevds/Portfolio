@@ -1,0 +1,32 @@
+.navigation {
+  background-color: hsla(282, 100%, 7%, 1);
+  padding: 0.5rem;
+
+  & .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    & a {
+      color: hsla(282, 100%, 80%, 1);
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    & .navigation__right {
+      display: flex;
+    }
+
+    & .navigation__right--text {
+      color: hsla(282, 100%, 80%, 1);
+      list-style: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__right {
+    display: none;
+  }
+}

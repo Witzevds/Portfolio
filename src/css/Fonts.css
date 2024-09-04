@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "test";
+  src: url("../fonts/Honk/Honk-Regular-VariableFont_MORF,SHLN.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pricedown";
+  src: url("../fonts/Pricedown/PricedownBl-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: noral;
+}

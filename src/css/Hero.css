@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  & .hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+    transition: filter 0.5s;
+  }
+  & .hero__text {
+    display: flex;
+    flex-direction: column;
+    animation: flicker 3s infinite alternate;
+  }
+  & .hero__text--title {
+    font-size: 8rem;
+    animation: flicker 3s infinite alternate;
+  }
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px hsla(282, 100%, 95%, 1),
+      0 0 4px hsla(282, 100%, 95%, 1), 0 0 10px hsla(282, 100%, 95%, 1),
+      0 0 40px hsla(282, 100%, 39%, 1), 0 0 80px hsla(282, 100%, 39%, 1),
+      0 0 90px hsla(282, 100%, 39%, 1), 0 0 100px hsla(282, 100%, 39%, 1),
+      0 0 150px hsla(282, 100%, 39%, 1);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
