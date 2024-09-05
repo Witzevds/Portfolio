@@ -20,6 +20,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2rem;
+
+    & .card {
+      width: 40%;
+    }
   }
 }
 
@@ -35,5 +39,19 @@
   text-decoration: none;
   & a {
     text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .work {
+    & .work__title {
+      font-size: 3rem;
+    }
+    & .work__cards {
+      & .card {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
   }
 }
