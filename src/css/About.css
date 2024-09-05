@@ -19,12 +19,19 @@
   width: 80%;
   gap: 2rem;
   justify-content: center;
+
+  & .about__content--left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   & .about__content--text {
     font-size: 2rem;
     font-weight: 800;
     font-family: montserrat;
     color: black;
-    width: 50%;
   }
   & .about__content--portrait {
     width: 30%;
@@ -32,6 +39,22 @@
       height: auto;
       border-radius: 2rem;
       border: 0.5rem solid black;
+    }
+  }
+}
+
+.tech-stack {
+  & .tech-stack__items {
+    display: flex;
+    gap: 2rem;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: fit-content;
+    margin-top: 2rem;
+    & .tech-stack__item {
+      display: flex;
+      width: 3rem;
     }
   }
 }
