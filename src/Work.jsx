@@ -8,7 +8,7 @@ import "./css/Work.css";
 function Work() {
   return (
     <section className="work">
-      <h2 className="work__title flicker">Work</h2>
+      <h2 className="work__title flicker">Projects</h2>
 
       <div className="work__cards">
         <Card

@@ -10,7 +10,7 @@ function Navigation() {
           </div>
           <div className="navigation__right">
             <li className="navigation__right--text"> <a href="/"> Contact</a></li>
-            <li className="navigation__right--text"> <a href="/">Work</a> </li>
+            <li className="navigation__right--text"> <a href="/">Projects</a> </li>
             <li className="navigation__right--text"> <a href="/">About</a> </li>
           </div>
         </ul>
