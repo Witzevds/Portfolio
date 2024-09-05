@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       <section className="hero">
-        <video className="hero__video" src={heroVideo} autoPlay muted loop></video>
+        <video className="hero__video" src={heroVideo} autoPlay muted loop type="video/mp4"></video>
         <div className="hero__text">
         <h1 className="hero__text--title">Witze</h1>
         <h2 className="hero__text--content">Web-Design & Web Development</h2>
