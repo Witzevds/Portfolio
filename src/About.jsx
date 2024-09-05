@@ -8,10 +8,12 @@ import react from "./assets/tech-stack/react.svg"
 import sql from "./assets/tech-stack/sql.svg"
 import express from "./assets/tech-stack/express.svg"
 import eleventy from "./assets/tech-stack/eleventy.svg"
+import image from "./assets/static-about.png"
 function About() {
   return <>
     <section className="about" id="about">
-       <video className="about__video"  src={redBackground} autoPlay muted loop></video>
+       <video className="about__video video"  src={redBackground} autoPlay muted loop></video>
+       <img className="image" src={image} alt="" />
   <div  className="about__content">
 
     <div className="about__content--left">

@@ -44,6 +44,7 @@
 
 @media (max-width: 768px) {
   .work {
+    height: 210svh;
     & .work__title {
       font-size: 3rem;
       text-shadow: none;

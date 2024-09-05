@@ -6,7 +6,8 @@
   margin-top: 10rem;
 }
 
-.about__video {
+.about__video,
+.image {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -72,6 +73,43 @@
     & .tech-stack__item {
       display: flex;
       width: 3rem;
+    }
+  }
+}
+.image {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    margin-top: 20rem;
+
+    & .video {
+      display: none;
+    }
+    & .image {
+      display: block;
+    }
+  }
+  .about__content {
+    flex-direction: column;
+
+    gap: 2rem;
+    align-items: center;
+    & .about__content--left {
+      width: 100%;
+    }
+    & .about__content--portrait {
+      display: none;
+    }
+  }
+  .tech-stack {
+    & .tech-stack__items {
+      gap: 2rem;
+      align-items: center;
+
+      & .tech-stack__item {
+        width: 5rem;
+      }
     }
   }
 }
