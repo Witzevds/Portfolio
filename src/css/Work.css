@@ -46,6 +46,8 @@
   .work {
     & .work__title {
       font-size: 3rem;
+      text-shadow: none;
+      color: hsla(282, 100%, 80%, 1);
     }
     & .work__cards {
       & .card {

@@ -3,7 +3,8 @@
   justify-content: center;
   height: 95vh;
   align-items: center;
-  & .hero__video {
+  & .hero__video,
+  .image {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,5 +67,33 @@
     & .flicker {
       text-shadow: none;
     }
+    & .video {
+      display: none;
+    }
+    & .image {
+      display: block;
+    }
+  }
+}
+.image {
+  display: none;
+}
+/* Standaard: toon de video en verberg de afbeelding */
+.media-container .video {
+  display: block;
+}
+
+.media-container .image {
+  display: none;
+}
+
+/* Media query voor schermen kleiner dan 768px */
+@media (max-width: 768px) {
+  .media-container .video {
+    display: none; /* Verberg de video */
+  }
+
+  .media-container .image {
+    display: block; /* Toon de afbeelding */
   }
 }
