@@ -89,6 +89,10 @@
     & .image {
       display: block;
     }
+
+    & .about__content--text {
+      font-size: 1rem;
+    }
   }
   .about__content {
     flex-direction: column;

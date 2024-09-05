@@ -29,6 +29,9 @@
   & .hero__text--title {
     font-size: 8rem;
   }
+  & .hero__text--content {
+    text-align: center;
+  }
 }
 
 .flicker {
