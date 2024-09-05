@@ -63,6 +63,11 @@
     }
     & .hero__text {
       text-shadow: none;
+      font-family: montserrat, sans-serif;
+
+      & .hero__text--content {
+        font-family: montserrat, sans-serif;
+      }
     }
     & .flicker {
       text-shadow: none;
@@ -77,23 +82,4 @@
 }
 .image {
   display: none;
-}
-/* Standaard: toon de video en verberg de afbeelding */
-.media-container .video {
-  display: block;
-}
-
-.media-container .image {
-  display: none;
-}
-
-/* Media query voor schermen kleiner dan 768px */
-@media (max-width: 768px) {
-  .media-container .video {
-    display: none; /* Verberg de video */
-  }
-
-  .media-container .image {
-    display: block; /* Toon de afbeelding */
-  }
 }
