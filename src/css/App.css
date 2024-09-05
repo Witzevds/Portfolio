@@ -1,6 +1,9 @@
 @import url("Fonts.css");
 @import url("Nav.css");
 @import url("Hero.css");
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #000000;
