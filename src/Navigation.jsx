@@ -9,9 +9,11 @@ function Navigation() {
             </li>
           </div>
           <div className="navigation__right">
+          <li className="navigation__right--text"> <a href="#work">Projects</a> </li>
+          <li className="navigation__right--text"> <a href="#about">About</a> </li>
             <li className="navigation__right--text"> <a href="#contact"> Contact</a></li>
-            <li className="navigation__right--text"> <a href="#work">Projects</a> </li>
-            <li className="navigation__right--text"> <a href="#about">About</a> </li>
+   
+         
           </div>
         </ul>
       </nav>

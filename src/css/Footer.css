@@ -1,0 +1,21 @@
+.contact {
+  margin-top: 5rem;
+  height: 15vh;
+  color: red;
+  display: flex;
+  padding: 5rem;
+
+  & .contact__socials {
+    display: flex;
+
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+    width: fit-content;
+    & .contact__socials--link {
+      list-style: none;
+
+      width: 5rem;
+    }
+  }
+}
