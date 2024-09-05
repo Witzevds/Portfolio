@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   justify-content: center;
-  height: 90vh;
+  height: 95vh;
   align-items: center;
   & .hero__video {
     position: absolute;
@@ -18,6 +18,8 @@
     display: flex;
     flex-direction: column;
     animation: flicker 3s infinite alternate;
+    font-family: "pricedown", sans serif;
+    font-weight: 400;
   }
   & .hero__text--title {
     font-size: 8rem;
@@ -25,6 +27,9 @@
   }
 }
 
+.flicker {
+  animation: flicker 3s infinite alternate;
+}
 @keyframes flicker {
   0%,
   18%,

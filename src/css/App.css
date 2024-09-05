@@ -3,8 +3,11 @@
 @import url("Hero.css");
 
 body {
-  font-family: "pricedown", sans serif;
-  font-weight: 400;
   background-color: #000000;
   cursor: url("../assets/cursor.cur"), auto;
+  font-family: "montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "pricedown", sans-serif;
 }

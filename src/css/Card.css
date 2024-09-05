@@ -1,3 +1,21 @@
 .card {
   width: fit-content;
+  border: 0.3rem solid hsla(282, 100%, 39%, 1);
+
+  width: 40%;
+  & .card__image {
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  & .card__text {
+    color: white;
+    padding: 1rem;
+  }
+
+  & .card__link {
+    color: white;
+  }
 }

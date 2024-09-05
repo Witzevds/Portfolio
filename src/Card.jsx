@@ -1,10 +1,13 @@
 function Card({ img, link, title, description }) {
   return (
     <div className="card">
-      <a href={link}>
-        <img src={img} alt="" />
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <a className="card__link" href={link}>
+        <img className="card__image" src={img} alt="" />
+
+        <div className="card__text">
+        <h3 className="card__title">{title}</h3>
+        <p className="card__description">{description}</p>
+        </div>
       </a>
     </div>
   );
