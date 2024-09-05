@@ -7,7 +7,7 @@ import js from "./assets/tech-stack/javascript.svg"
 import react from "./assets/tech-stack/react.svg"
 import sql from "./assets/tech-stack/sql.svg"
 import express from "./assets/tech-stack/express.svg"
-
+import eleventy from "./assets/tech-stack/eleventy.svg"
 function About() {
   return <>
     <section className="about" id="about">
@@ -30,6 +30,7 @@ function About() {
             <li className="tech-stack__item"><img src={react} alt="" /> </li>
             <li className="tech-stack__item"><img src={sql} alt="" /> </li>
             <li className="tech-stack__item"><img src={express} alt="" /> </li>
+            <li className="tech-stack__item"><img src={eleventy} alt="" /> </li>
      
        
           </ul>
