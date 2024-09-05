@@ -10,7 +10,7 @@ import express from "./assets/tech-stack/express.svg"
 
 function About() {
   return <>
-    <section className="about">
+    <section className="about" id="about">
        <video className="about__video"  src={redBackground} autoPlay muted loop></video>
   <div  className="about__content">
 
@@ -18,12 +18,12 @@ function About() {
       <div className="about__content--text">
         
         
-        <h1>Who am i?</h1>
-        
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur minus debitis magnam, id ipsam sint, a est assumenda molestiae, vitae repellat beatae. Perspiciatis ducimus consequatur ea eum enim expedita.</div>
+        <h2 className="about__content--text title">    My name is Witze,</h2>
+     <br />  I’m a second-year Web Development student at Artevelde.     During my first year, I gained valuable experience in creating stylish and user-friendly websites. I'm now eager to start freelancing to further expand my knowledge and gain insight into the professional world. Additionally, I am actively seeking an internship opportunity for next year.</div>
 
         <div className="tech-stack">
           <ul className="tech-stack__items">
+            <h2>My Tech Stack</h2>
             <li className="tech-stack__item"> <img src={html} alt="" /></li>
             <li className="tech-stack__item"><img src={css} alt="" /> </li>
             <li className="tech-stack__item"><img src={js} alt="" /> </li>
