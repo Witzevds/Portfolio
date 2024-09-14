@@ -64,6 +64,7 @@
   & .tech-stack__items {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
     align-items: center;
     background-color: black;
     padding: 2rem;
@@ -71,8 +72,7 @@
     width: 100%;
     margin-top: 2rem;
     & .tech-stack__item {
-      display: flex;
-      width: 3rem;
+      width: 4rem;
     }
   }
 }
@@ -112,7 +112,7 @@
       align-items: center;
 
       & .tech-stack__item {
-        width: 5rem;
+        width: 2rem;
       }
     }
   }
